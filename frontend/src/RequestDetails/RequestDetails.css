@@ -1,0 +1,12 @@
+.request-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #dddddd;
+}
+
+.request-page button {
+  padding: 7px 10px;
+  cursor: pointer;
+}
