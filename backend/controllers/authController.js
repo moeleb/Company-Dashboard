@@ -3,7 +3,6 @@ const bcrypt = require('bcryptjs');
 const generateToken = require('../utils/jwt');
 const register = async (req, res) => {
     const { email, password , confirmPassword} = req.body;
-    // Registration logic here
     if (!email || !password || !confirmPassword) {
         return res.status(400).json({ message: 'Email, password, and confirm password are required' });
     }   
